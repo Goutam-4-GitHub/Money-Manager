@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+.each-rows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px #d7dfe9;
+  padding: 10px 20px 10px 20px;
+  font-family: 'Roboto';
+}
+
+.each-rows p {
+  width: 56px;
+  font-size: 12px;
+}
+
+.amount {
+  margin-right: 20px;
+}
+
+.row-title {
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.history-items {
+  color: #334155;
+}
+
+.delete-button {
+  border-width: 0;
+  background-color: transparent;
+}
+
+.delete-icon {
+  height: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .each-rows {
+    padding: 5px 10px 5px 10px;
+  }
+
+  .each-rows p {
+    width: 46px;
+    font-size: 10px;
+  }
+
+  .amount {
+    margin-right: 10px;
+  }
+
+  .delete-icon {
+    height: 10px;
+  }
+}

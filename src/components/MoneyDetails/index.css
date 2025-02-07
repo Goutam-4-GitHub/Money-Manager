@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.each-amount-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 15px 15px 15px;
+}
+
+.amount-container-one {
+  background-color: #ecfccb;
+  border: solid 1px #84cc16;
+  border-radius: 10px;
+}
+
+.amount-container-two {
+  background-color: #cffafe;
+  border: solid 1px #06b6d4;
+  border-radius: 10px;
+}
+
+.amount-container-three {
+  background-color: #ede9fe;
+  border: solid 1px #7c3aed;
+  border-radius: 10px;
+}
+
+.amount-icon {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.amount-updation-container {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.total-amount {
+  font-family: 'Roboto';
+  color: #475569;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.amount-description {
+  font-family: 'Roboto';
+  color: #475569;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+/* Write your CSS here */
+
+@media screen and (max-width: 767px) {
+  .each-amount-container {
+    justify-content: flex-start;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+
+  .amount-icon {
+    height: 40px;
+    margin-right: 5px;
+  }
+
+  .amount-updation-container {
+    margin-left: 5px;
+  }
+
+  .total-amount {
+    margin-top: 3px;
+    font-size: 16px;
+  }
+
+  .amount-description {
+    margin-bottom: 3px;
+    font-size: 10px;
+  }
+}
