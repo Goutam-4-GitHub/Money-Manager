@@ -100,7 +100,7 @@ class MoneyManager extends Component {
     return (
       <div className="transactions-app-main-bg-container">
         <div className="transactions-app-title-container">
-          <h1 className="transactions-app-greeting"> Hi, Richard </h1>
+          <h1 className="transactions-app-greeting"> Hi, Goutam </h1>
           <p className="transactions-app-greeting-details">
             Welcome back to your
             <span className="money-manager"> Money Manager </span>
